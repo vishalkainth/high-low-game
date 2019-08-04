@@ -1,11 +1,44 @@
-/* CSS files add styling rules to your content */
+/* Number Guessing Game CSS */
 
 body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
+	margin: 10px;
+	background-color: #cccccc;
+	font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+.button {
+	margin-top: 10px;
+	border-radius: 10px;
+	border-color: #CA96FE;
+	border-style: solid;
+	border-width: 1px;
+	width: 20%;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #E0C9F6;
+	
+}
+
+#historyArea {
+	margin-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#game {
+	background-color: #CAF4F9;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #13DDEC;
+	padding: 10px;
+}
+
+#statusArea {
+	font-size: 120%;
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+	color: #F74379;
 }

@@ -1,27 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Hello!</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>  
-  <body>
-    <h1>Hi there!</h1>
-    
-    <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
-    </p>
-
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
-  </body>
+<!-- Number Guessing Game HTML -->
+<html>
+	<head>
+		<title>JavaScript Number Guess</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
+		<!--Linking CSS File-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!--Linking Javascript File-->
+        <script type="text/javascript" src="script.js"></script>
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700" rel="stylesheet">
+        <!-- Linking Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+	</head>
+	<body>
+		<div id="game">
+			<h1>Number Guessing Game</h1>
+      <h2>
+        By Vishal Kainth
+      </h2>
+			<div id="statusArea">
+				<p>I am thinking of a random number between 1 to 100. What is it?</p>
+			</div>
+			<input type="number" id="userGuess"/>
+			<div id="buttonArea" class="button">
+				Guess
+			</div>
+			<div id="historyArea">
+				<h3>Your Previous Guesses</h3>
+				<ol id="historyList">
+				</ol>
+			</div>
+			
+		</div>
+	</body>
 </html>
